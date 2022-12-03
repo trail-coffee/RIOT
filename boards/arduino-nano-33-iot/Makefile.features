@@ -14,6 +14,7 @@ FEATURES_PROVIDED += periph_usbdev
 
 # Put other features for this board (in alphabetical order)
 FEATURES_PROVIDED += highlevel_stdio
+FEATURES_PROVIDED += lsm6ds3
 
 # This configuration enables modules that are only available when using Kconfig
 # module modelling

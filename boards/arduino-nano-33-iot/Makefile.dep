@@ -1,5 +1,6 @@
 ifneq (,$(filter saul_default,$(USEMODULE)))
   USEMODULE += saul_gpio
+  USEMODULE += lsm6ds3
 endif
 
 # setup the samd21 arduino bootloader related dependencies
